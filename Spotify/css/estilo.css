@@ -1,0 +1,251 @@
+body {
+	background: url(../imagens/ruido.png), linear-gradient(90deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+}
+
+.barco {
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.capa {
+	text-align: center;
+	position: relative;
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.navbar-dark .navbar-toggler {
+	color: rgba(255, 255, 255, .6);
+	border-color: rgba(255, 255, 255, .6);
+}
+
+body, html, #home, #grande {
+	height: 100%;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius;
+	500px;
+	-moz-border-radius;
+	500px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	font-weight: 620;
+	margin-bottom: 5px;
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+
+.btn-roxo:hover {
+	background: #6207e3;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+	background: none;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+@media (max-width: 575.98px) {
+	...
+}
+
+.btn-custom {
+	font-size: 1em;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1 {
+		font-size: 3em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 4em;
+	}
+	.balaclava {
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+	.horse {
+		position: relative;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.teste h2 {
+		font-size: 2.2em;
+	}
+	.teste h3 {
+		font-size: 1.8em;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 6em;
+	}
+}
+
+h1 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#recursos {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos {
+	background: white;
+}
+
+#recursos {
+	color: white;
+}
+
+#servicos h2, h3 {
+	color: #7c25f8;
+}
+
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
+
+.albuns {
+	padding-bottom: 10px;
+}
+
+.rotacionar {
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+footer {
+	padding-top: 25px;
+	background: #000;
+	position: relative;
+	padding-bottom: 15px;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	position: relative;
+	margin: 0 5px;
+	flex-wrap: wrap;
+}
+
+.ibage {
+	padding-right: 35px;
+	margin-bottom: 10px;
+}
+
+.carousel-control-next {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 15%;
+	color: #fff;
+	text-align: center;
+	opacity: .5;
+	padding-left: 80px;
+}
+
+.carousel-control-prev {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 15%;
+	color: #fff;
+	text-align: center;
+	opacity: .5;
+	padding-right: 80px;
+}
